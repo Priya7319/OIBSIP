@@ -34,7 +34,6 @@ class Account {
 	}
 	
 
-
 	///****--------------****
 	///method for userlogin //
 

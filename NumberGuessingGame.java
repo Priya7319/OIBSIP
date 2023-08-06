@@ -9,10 +9,10 @@ public class NumberGuessingGame {
     ///------------------------------------------------------
     public static void score (int num){
         switch(num) {
-            case 1: // if the trial is 1nd
+            case 1: // if the trial is 1st
             System.out.println("You have scored " + 90 + " in this round");
             break;
-            case 2:  // if the trial is 2rd
+            case 2:  // if the trial is 2nd
             System.out.println("You have scored " + 80 + " in this round"); 
             break;
             case 3: // if the trial is 3rd
@@ -89,7 +89,7 @@ public class NumberGuessingGame {
                         System.out.println("Sorry " + name + " , you have reached maximum limit");
                         score(10-tries); 
                         System.out.println("Do u want to play again ? : Yes or No");
-                        choice = scanner.nextLine().toLowerCase();
+                        choice = scanner.next().toLowerCase();
                         if(choice.equals("yes"))
                         {
                         continue;
